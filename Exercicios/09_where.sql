@@ -7,6 +7,6 @@ CASE
     WHEN QtdePontos < 10 THEN 'baixo'
     WHEN QtdePontos < 500 THEN 'medio'
     ELSE 'alto'
-END AS Sinalizacao
+END AS FlQtdePontos
 FROM transacoes
 WHERE QtdePontos < 500
