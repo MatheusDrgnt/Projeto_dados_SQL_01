@@ -8,6 +8,9 @@ FROM transacao_produto
 
 GROUP BY IdProduto
 
-ORDER BY 2 DESC;
 -- Pode ser ORDER BY sum(vlProduto * QtdeProduto) DESC
+
+ORDER BY 2 DESC
+
+
 
