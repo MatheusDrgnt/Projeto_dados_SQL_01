@@ -1,4 +1,4 @@
--- Lista de trabsações com apenas 1 ponto.ABORT
+-- Lista de trabsações com apenas 1 ponto.
 
 SELECT IdTransacao, idCliente, QtdePontos
 FROM transacoes
